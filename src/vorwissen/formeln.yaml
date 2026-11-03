@@ -1,0 +1,102 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Symbole und Formeln – kurz wiederholt
+  en: Symbols and formulas – a short recap
+description:
+  de: Jedes Element hat ein Symbol, jede Verbindung eine Formel. So liest du sie, bevor du Reaktionsgleichungen aufstellst.
+  en: Every element has a symbol, every compound a formula. This is how you read them before you write reaction equations.
+recap: chemie/formeln-von-verbindungen
+blocks:
+  - type: section
+    id: regel
+    title:
+      de: Regel
+      en: Rule
+    blocks:
+      - type: definition
+        term:
+          de: Verbindung
+          en: Compound
+        explanation:
+          de: Eine Verbindung besteht aus Atomen verschiedener Elemente, die in einem festen Verhältnis verbunden sind, zum Beispiel Wasser oder Kohlenstoffdioxid.
+          en: A compound consists of atoms of different elements joined in a fixed ratio, for example water or carbon dioxide.
+      - type: definition
+        term:
+          de: Molekül
+          en: Molecule
+        explanation:
+          de: Ein Molekül ist ein kleines Teilchen aus mehreren verbundenen Atomen, zum Beispiel ein Wassermolekül.
+          en: A molecule is a small particle made of several joined atoms, for example a water molecule.
+      - type: definition
+        term:
+          de: Formel
+          en: Formula
+        explanation:
+          de: Eine Formel zeigt mit den Elementsymbolen, aus welchen Atomen ein Stoff besteht. Eine kleine tiefgestellte Zahl, der Index, sagt, wie viele Atome es sind.
+          en: A formula uses element symbols to show which atoms a substance is made of. A small subscript number, the index, tells how many atoms there are.
+      - type: text
+        text:
+          de: |
+            Die Formel von Wasser ist $\ce{H2O}$: ein Molekül hat 2 Wasserstoffatome (H) und 1 Sauerstoffatom (O). Steht kein Index, ist es 1 Atom.
+          en: |
+            The formula of water is $\ce{H2O}$: one molecule has 2 hydrogen atoms (H) and 1 oxygen atom (O). If there is no index, it is 1 atom.
+      - type: table
+        caption:
+          de: Einige Formeln und ihre Atome
+          en: Some formulas and their atoms
+        header:
+          - de: Stoff
+            en: Substance
+          - de: Formel
+            en: Formula
+          - de: Atome in einem Teilchen
+            en: Atoms in one particle
+        rowHeaders: true
+        rows:
+          - - de: Wasser
+              en: water
+            - de: $\ce{H2O}$
+              en: $\ce{H2O}$
+            - de: 2 H, 1 O
+              en: 2 H, 1 O
+          - - de: Kohlenstoffdioxid
+              en: carbon dioxide
+            - de: $\ce{CO2}$
+              en: $\ce{CO2}$
+            - de: 1 C, 2 O
+              en: 1 C, 2 O
+          - - de: Methan
+              en: methane
+            - de: $\ce{CH4}$
+              en: $\ce{CH4}$
+            - de: 1 C, 4 H
+              en: 1 C, 4 H
+          - - de: Ammoniak
+              en: ammonia
+            - de: $\ce{NH3}$
+              en: $\ce{NH3}$
+            - de: 1 N, 3 H
+              en: 1 N, 3 H
+          - - de: Sauerstoff
+              en: oxygen
+            - de: $\ce{O2}$
+              en: $\ce{O2}$
+            - de: 2 O
+              en: 2 O
+  - type: section
+    id: beispiel
+    title:
+      de: Beispiel
+      en: Example
+    blocks:
+      - type: example
+        title:
+          de: Die Formel von Methan lesen
+          en: Reading the formula of methane
+        blocks:
+          - type: text
+            text:
+              de: |
+                Methan hat die Formel $\ce{CH4}$. C steht für Kohlenstoff, H für Wasserstoff. Die 4 sagt: Auf 1 Kohlenstoffatom kommen 4 Wasserstoffatome. Ein Methanmolekül hat zusammen 5 Atome.
+              en: |
+                Methane has the formula $\ce{CH4}$. C stands for carbon, H for hydrogen. The 4 says: for 1 carbon atom there are 4 hydrogen atoms. A methane molecule has 5 atoms in total.

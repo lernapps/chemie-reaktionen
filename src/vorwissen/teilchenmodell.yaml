@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Teilchenmodell – kurz wiederholt
+  en: Particle model – a short recap
+description:
+  de: Stoffe bestehen aus winzigen Teilchen. Das brauchst du, um zu verstehen, was bei einer Reaktion mit den Atomen geschieht.
+  en: Substances consist of tiny particles. You need this to understand what happens to the atoms in a reaction.
+recap: chemie/teilchenmodell
+blocks:
+  - type: section
+    id: regel
+    title:
+      de: Regel
+      en: Rule
+    blocks:
+      - type: definition
+        term:
+          de: Teilchenmodell
+          en: Particle model
+        explanation:
+          de: Im Teilchenmodell besteht jeder Stoff aus sehr kleinen Teilchen, die man sich als Kugeln vorstellt.
+          en: In the particle model every substance consists of very small particles, which you imagine as balls.
+      - type: table
+        caption:
+          de: Die drei Aggregatzustände im Teilchenmodell
+          en: The three states of matter in the particle model
+        header:
+          - de: Zustand
+            en: State
+          - de: Anordnung der Teilchen
+            en: Arrangement of the particles
+          - de: Beweglichkeit
+            en: Movement
+        rowHeaders: true
+        rows:
+          - - de: fest
+              en: solid
+            - de: dicht an dicht, geordnet
+              en: close together, in order
+            - de: schwingen an ihrem Platz
+              en: vibrate in place
+          - - de: flüssig
+              en: liquid
+            - de: dicht beieinander, ungeordnet
+              en: close together, not in order
+            - de: wechseln ihre Plätze
+              en: change places
+          - - de: gasförmig
+              en: gaseous
+            - de: weit auseinander
+              en: far apart
+            - de: bewegen sich frei durch den Raum
+              en: move freely through the space
+      - type: text
+        text:
+          de: |
+            Wird ein Stoff wärmer, bewegen sich seine Teilchen schneller. Bei genug Wärme lösen sie sich aus der festen Ordnung: Der Stoff schmilzt. Noch mehr Wärme, und sie fliegen auseinander: Der Stoff siedet.
+          en: |
+            When a substance gets warmer, its particles move faster. With enough heat they break out of their fixed order: the substance melts. With even more heat they fly apart: the substance boils.
+  - type: section
+    id: beispiel
+    title:
+      de: Beispiel
+      en: Example
+    blocks:
+      - type: example
+        title:
+          de: Wasser wird erhitzt
+          en: Water is heated
+        blocks:
+          - type: text
+            text:
+              de: |
+                Eis ist fest. Die Wasserteilchen sitzen dicht an dicht. Bei 0 °C schmilzt es, dann sind sie beweglich und das Wasser fließt. Bei 100 °C siedet es: Die Teilchen fliegen auseinander, es ist Wasserdampf.
+              en: |
+                Ice is solid. The water particles sit close together. At 0 °C it melts, then they are mobile and the water flows. At 100 °C it boils: the particles fly apart and it is water vapour.

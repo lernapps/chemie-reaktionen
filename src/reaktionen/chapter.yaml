@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Chemische Reaktionen
+  en: Chemical reactions
+summary:
+  de: Du erkennst chemische Reaktionen und stellst einfache Reaktionsgleichungen auf.
+  en: You recognise chemical reactions and write simple reaction equations.
+pages:
+  - reaktionen
+  - reaktionsgleichungen
+selfAssessment:
+  pages:
+    - exercises:
+        - /reaktionen/reaktionen/#vorgang-art
+        - /reaktionen/reaktionen/#sicheres-zeichen
+        - /reaktionen/reaktionen/#atome-entstehen
+    - exercises:
+        - /reaktionen/reaktionsgleichungen/#koeffizient-wasser
+        - /reaktionen/reaktionsgleichungen/#koeffizient-ammoniak
+        - /reaktionen/reaktionsgleichungen/#koeffizient-methan
