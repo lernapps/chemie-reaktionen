@@ -1,0 +1,69 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Aggregatzustände – kurz wiederholt
+  en: States of matter – a short recap
+description:
+  de: "Fest, flüssig, gasförmig: Daran erkennst du, ob sich bei einem Vorgang nur der Zustand ändert."
+  en: "Solid, liquid, gaseous: this is how you tell whether only the state changes in a process."
+recap: chemie/aggregatzustaende-beschreiben
+blocks:
+  - type: section
+    id: regel
+    title:
+      de: Regel
+      en: Rule
+    blocks:
+      - type: text
+        text:
+          de: |
+            Drei Eigenschaften helfen beim Ordnen:
+            - Der **Aggregatzustand** bei Zimmertemperatur (20 °C): fest, flüssig oder gasförmig.
+            - Die **Schmelztemperatur**: Ab dieser Temperatur wird ein fester Stoff flüssig.
+            - Die **Siedetemperatur**: Ab dieser Temperatur wird ein flüssiger Stoff gasförmig.
+          en: |
+            Three properties help to sort substances:
+            - The **state of matter** at room temperature (20 °C): solid, liquid or gaseous.
+            - The **melting point**: from this temperature a solid becomes liquid.
+            - The **boiling point**: from this temperature a liquid becomes gaseous.
+      - type: definition
+        term:
+          de: Schmelztemperatur
+          en: Melting point
+        explanation:
+          de: Die Temperatur, bei der ein fester Stoff flüssig wird. Für einen Reinstoff ist sie immer gleich.
+          en: The temperature at which a solid becomes liquid. For a pure substance it is always the same.
+      - type: definition
+        term:
+          de: Siedetemperatur
+          en: Boiling point
+        explanation:
+          de: Die Temperatur, bei der ein flüssiger Stoff gasförmig wird. Für einen Reinstoff ist sie immer gleich.
+          en: The temperature at which a liquid becomes gaseous. For a pure substance it is always the same.
+      - type: note
+        title:
+          de: Merkhilfe
+          en: Memory aid
+        blocks:
+          - type: text
+            text:
+              de: |
+                Liegt die Zimmertemperatur (20 °C) unter der Schmelztemperatur, ist der Stoff fest. Liegt sie zwischen Schmelz- und Siedetemperatur, ist er flüssig. Liegt sie darüber, ist er gasförmig.
+              en: |
+                If room temperature (20 °C) is below the melting point, the substance is solid. If it lies between the melting and the boiling point, it is liquid. If it is above, it is gaseous.
+  - type: section
+    id: beispiel
+    title:
+      de: Beispiel
+      en: Example
+    blocks:
+      - type: example
+        title:
+          de: Warum ist Wasser bei 20 °C flüssig?
+          en: Why is water liquid at 20 °C?
+        blocks:
+          - type: text
+            text:
+              de: |
+                Wasser schmilzt bei 0 °C und siedet bei 100 °C. Zimmertemperatur (20 °C) liegt dazwischen. Darum ist Wasser bei 20 °C flüssig.
+              en: |
+                Water melts at 0 °C and boils at 100 °C. Room temperature (20 °C) lies in between. That is why water is liquid at 20 °C.

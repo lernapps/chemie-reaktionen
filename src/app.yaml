@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+# The strand of the learning map the app stays in; each page names its competencies (ids of map/chemie.yaml in
+# lernapps/apps). Recap pages name the competency they repeat instead.
+strand: chemie/chemische-reaktion
+title:
+  de: Chemie – Chemische Reaktionen
+  en: Chemistry – chemical reactions
+intro:
+  de: |
+    Wann ist etwas eine chemische Reaktion, und wie schreibst du sie auf? Du unterscheidest Reaktionen von Zustandsänderungen und stellst einfache Reaktionsgleichungen auf. Vorher wiederholst du kurz, was du dafür brauchst. Auf jeder Seite übst du selbst.
+    Für die unteren Klassenstufen (Klasse 7 und 8).
+  en: |
+    When is something a chemical reaction, and how do you write it down? You tell reactions from changes of state and write simple reaction equations. Before that you briefly recap what you need for it. You practise on every page.
+    For the lower grades (grades 7 and 8).
+languages:
+  - de
+  - en
+chapters:
+  - vorwissen
+  - reaktionen
+sources:
+  - title:
+      de: Bildungsstandards im Fach Chemie für den Mittleren Schulabschluss (KMK, 2004)
+      en: Educational standards in chemistry for the intermediate school leaving certificate (KMK, 2004, German)
+    url: https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2004/2004_12_16-Bildungsstandards-Chemie.pdf
+  - title:
+      de: Chemie (Serlo, CC BY-SA 4.0)
+      en: Chemistry (Serlo, CC BY-SA 4.0, German)
+    url: https://de.serlo.org/chemie
+  - title:
+      de: Reaktionsgleichung (Wikipedia)
+      en: Reaction equation (Wikipedia, German)
+    url: https://de.wikipedia.org/wiki/Reaktionsgleichung

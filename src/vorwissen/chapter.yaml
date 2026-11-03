@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Vorwissen kurz wiederholt
+  en: Prior knowledge, recapped
+summary:
+  de: "Was du für die Reaktionen schon können musst: Stoffeigenschaften, Aggregatzustände, Teilchenmodell, Symbole und Formeln."
+  en: "What you need to know before the reactions: properties of substances, states of matter, the particle model, symbols and formulas."
+pages:
+  - stoffeigenschaften
+  - aggregatzustaende
+  - teilchenmodell
+  - formeln

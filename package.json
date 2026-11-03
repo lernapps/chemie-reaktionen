@@ -1,0 +1,23 @@
+{
+  "name": "chemie-reaktionen",
+  "private": true,
+  "description": "Chemie: Chemische Reaktionen von lernapps.net, ein explainer: Reaktionen erkennen und einfache Reaktionsgleichungen aufstellen für Klasse 7 und 8.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "vp build --outDir _site",
+    "check": "lernapps check",
+    "prepare": "lernapps hooks"
+  },
+  "devDependencies": {
+    "@lernapps/app-templates": "github:lernapps/app-templates#38c63dc35d72e3cef0c87cff18a845b4b9393562",
+    "@lernapps/tooling": "github:lernapps/tooling#d3d2a35e14012753e832c0714ce393ea79280388",
+    "typescript": "6.0.3",
+    "vite-plus": "1.4.0",
+    "vue-tsc": "3.3.11"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.4.0"
+  }
+}

@@ -1,0 +1,45 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Stoffeigenschaften – kurz wiederholt
+  en: Properties of substances – a short recap
+description:
+  de: "Farbe, Geruch, Härte, Dichte: Daran erkennst du einen Stoff. So beschreibst du ihn."
+  en: "Colour, smell, hardness, density: this is how you recognise a substance. This is how you describe it."
+recap: chemie/stoffeigenschaften-beschreiben
+blocks:
+  - type: section
+    id: regel
+    title:
+      de: Regel
+      en: Rule
+    blocks:
+      - type: definition
+        term:
+          de: Stoffeigenschaft
+          en: Property of a substance
+        explanation:
+          de: Eine Stoffeigenschaft ist etwas, woran du einen Stoff erkennst und von anderen Stoffen unterscheidest, zum Beispiel seine Farbe, sein Geruch, seine Härte oder seine Dichte.
+          en: A property of a substance is something you can use to recognise a substance and to tell it from other substances, for example its colour, its smell, its hardness or its density.
+      - type: text
+        text:
+          de: |
+            Du beschreibst einen Stoff mit mehreren Eigenschaften zusammen. Eine allein reicht oft nicht, denn viele Stoffe sind zum Beispiel weiß oder geruchlos. Wichtig für den nächsten Schritt: Bei einer chemischen Reaktion verwandeln sich Stoffe in andere Stoffe, und die neuen Stoffe haben andere Eigenschaften als die alten.
+          en: |
+            You describe a substance with several properties together. One alone is often not enough, because many substances are, for example, white or odourless. Important for the next step: in a chemical reaction substances turn into other substances, and the new substances have different properties from the old ones.
+  - type: section
+    id: beispiel
+    title:
+      de: Beispiel
+      en: Example
+    blocks:
+      - type: example
+        title:
+          de: Kupfer beschreiben
+          en: Describing copper
+        blocks:
+          - type: text
+            text:
+              de: |
+                Kupfer ist rötlich glänzend und fest, geruchlos und leitet den elektrischen Strom gut. Deshalb erkennst du es an diesen Eigenschaften zusammen und nutzt es für Stromkabel.
+              en: |
+                Copper is reddish and shiny and solid, odourless and conducts electric current well. That is why you recognise it by these properties together and use it for power cables.
