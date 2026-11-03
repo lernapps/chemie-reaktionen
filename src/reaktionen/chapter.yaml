@@ -3,18 +3,22 @@ title:
   de: Chemische Reaktionen
   en: Chemical reactions
 summary:
-  de: Du erkennst chemische Reaktionen und stellst einfache Reaktionsgleichungen auf.
-  en: You recognise chemical reactions and write simple reaction equations.
+  de: Du erkennst chemische Reaktionen, unterscheidest sie von Zustandsänderungen, erklärst die Massenerhaltung und stellst einfache Reaktionsgleichungen auf.
+  en: You recognise chemical reactions, tell them from changes of state, explain conservation of mass and write simple reaction equations.
 pages:
   - reaktionen
+  - zustandsaenderung
+  - massenerhaltung
   - reaktionsgleichungen
 selfAssessment:
   pages:
     - exercises:
-        - /reaktionen/reaktionen/#vorgang-art
+        - /reaktionen/reaktionen/#beobachtung-hinweis
         - /reaktionen/reaktionen/#sicheres-zeichen
-        - /reaktionen/reaktionen/#atome-entstehen
+        - /reaktionen/zustandsaenderung/#vorgang-art
+        - /reaktionen/zustandsaenderung/#kerzenwachs
     - exercises:
+        - /reaktionen/massenerhaltung/#waage-geschlossen
+        - /reaktionen/massenerhaltung/#masse-magnesium
         - /reaktionen/reaktionsgleichungen/#koeffizient-wasser
-        - /reaktionen/reaktionsgleichungen/#koeffizient-ammoniak
         - /reaktionen/reaktionsgleichungen/#koeffizient-methan

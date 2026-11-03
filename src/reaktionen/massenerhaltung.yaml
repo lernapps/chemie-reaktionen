@@ -1,0 +1,170 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Die Masse bleibt gleich
+  en: Mass stays the same
+description:
+  de: Bei einer Reaktion bleibt die Gesamtmasse gleich. Das zeigt ein Versuch mit der Waage, und die Atome erklären es.
+  en: In a reaction the total mass stays the same. A balance experiment shows it, and atoms explain it.
+competencies: [massenerhaltung]
+blocks:
+  - type: section
+    id: warum
+    title:
+      de: Warum
+      en: Why
+    blocks:
+      - type: text
+        text:
+          de: |
+            Wenn Holz verbrennt, bleibt nur wenig Asche übrig. Ist der Rest verschwunden? Oder ist er nur nicht mehr zu sehen? Mit einer Waage kannst du das herausfinden.
+          en: |
+            When wood burns, only a little ash is left. Has the rest vanished? Or can you just no longer see it? With a balance you can find out.
+  - type: section
+    id: regel
+    title:
+      de: Regel
+      en: Rule
+    blocks:
+      - type: definition
+        term:
+          de: Massenerhaltung
+          en: Conservation of mass
+        explanation:
+          de: Bei einer chemischen Reaktion ist die Gesamtmasse der Stoffe nachher genauso groß wie vorher.
+          en: In a chemical reaction the total mass of the substances afterwards is just as large as before.
+      - type: text
+        text:
+          de: |
+            Das gilt nur, wenn du alle beteiligten Stoffe mitwiegst. Läuft die Reaktion in einem geschlossenen Gefäß ab, kann kein Gas hinein oder hinaus, und die Waage zeigt vorher und nachher dasselbe an. In einem offenen Gefäß kann die Masse zunehmen (ein Gas aus der Luft wird aufgenommen) oder abnehmen (ein Gas entweicht).
+          en: |
+            This holds only if you weigh all the substances involved. If the reaction takes place in a closed vessel, no gas can get in or out, and the balance shows the same before and after. In an open vessel the mass can increase (a gas from the air is taken up) or decrease (a gas escapes).
+      - type: text
+        text:
+          de: |
+            Die Erklärung steht im Teilchenmodell: Bei einer Reaktion ordnen sich die Atome neu an. Es kommen keine Atome dazu und keine gehen verloren. Jedes Atom behält seine Masse, also bleibt auch die Gesamtmasse gleich.
+          en: |
+            The explanation lies in the particle model: in a reaction the atoms rearrange. No atoms are added and none are lost. Every atom keeps its mass, so the total mass stays the same too.
+  - type: section
+    id: beispiel
+    title:
+      de: Beispiel
+      en: Example
+    blocks:
+      - type: example
+        title:
+          de: Der Versuch mit der Waage
+          en: The balance experiment
+        blocks:
+          - type: text
+            text:
+              de: |
+                1. Du stellst eine Flasche mit Wasser und einer Brausetablette auf die Waage, verschlossen mit einem Luftballon. Die Waage zeigt eine Zahl.
+                2. Du lässt die Tablette ins Wasser fallen. Sie löst sich unter Sprudeln auf, ein Gas entsteht und bläht den Ballon auf. Das ist eine Reaktion.
+                3. Die Waage zeigt dieselbe Zahl wie vorher. Das Gas ist im Ballon geblieben und wird mitgewogen.
+                4. Öffnest du die Flasche, entweicht das Gas, und die Waage zeigt weniger an. Die Masse ist nicht verschwunden, das Gas ist nur nicht mehr auf der Waage.
+              en: |
+                1. You put a bottle with water and an effervescent tablet on the balance, closed with a balloon. The balance shows a number.
+                2. You let the tablet fall into the water. It dissolves with fizzing; a gas forms and inflates the balloon. That is a reaction.
+                3. The balance shows the same number as before. The gas stayed in the balloon and is weighed too.
+                4. If you open the bottle, the gas escapes and the balance shows less. The mass has not vanished; the gas is just no longer on the balance.
+  - type: section
+    id: uebung
+    title:
+      de: Übung
+      en: Practice
+    blocks:
+      - type: single-choice
+        id: waage-geschlossen
+        text:
+          de: In einem fest verschlossenen Gefäß läuft eine Reaktion ab, bei der ein Gas entsteht. Was zeigt die Waage vorher und nachher?
+          en: A reaction that forms a gas takes place in a tightly closed vessel. What does the balance show before and after?
+        options:
+          - text:
+              de: Dieselbe Masse.
+              en: The same mass.
+            correct: true
+            info:
+              de: Das Gas kann nicht entweichen. Alle Stoffe bleiben auf der Waage.
+              en: The gas cannot escape. All substances stay on the balance.
+          - text:
+              de: Nachher weniger Masse, weil Gas leichter ist als ein Feststoff.
+              en: Less mass afterwards, because gas is lighter than a solid.
+            correct: false
+            info:
+              de: Auch ein Gas hat Masse. Solange es im Gefäß bleibt, wird es mitgewogen.
+              en: A gas has mass too. As long as it stays in the vessel, it is weighed.
+          - text:
+              de: Nachher mehr Masse, weil ein neuer Stoff entstanden ist.
+              en: More mass afterwards, because a new substance was formed.
+            correct: false
+            info:
+              de: Ein neuer Stoff bedeutet nicht mehr Masse. Aus den alten Stoffen wird nur Neues zusammengesetzt.
+              en: A new substance does not mean more mass. The old substances are only put together anew.
+        explanation:
+          de: Im geschlossenen Gefäß bleibt die Gesamtmasse gleich.
+          en: In a closed vessel the total mass stays the same.
+        links: &a1
+          - title:
+              de: Massenerhaltungssatz (Wikipedia)
+              en: Law of conservation of mass (Wikipedia, German)
+            url: https://de.wikipedia.org/wiki/Massenerhaltungssatz
+      - type: single-choice
+        id: stahlwolle-offen
+        text:
+          de: Stahlwolle verbrennt in offener Luft auf einer Waage. Nachher zeigt die Waage mehr an. Warum?
+          en: Steel wool burns in open air on a balance. Afterwards the balance shows more. Why?
+        options:
+          - text:
+              de: Das Eisen hat Sauerstoff aus der Luft aufgenommen.
+              en: The iron has taken up oxygen from the air.
+            correct: true
+            info:
+              de: Der Sauerstoff steckt jetzt im neuen Stoff und wird mitgewogen. Die Luft lag vorher nicht auf der Waage.
+              en: The oxygen is now in the new substance and is weighed. The air was not on the balance before.
+          - text:
+              de: Aus dem Nichts sind neue Atome entstanden.
+              en: New atoms have appeared out of nothing.
+            correct: false
+            info:
+              de: Atome entstehen bei einer Reaktion nicht neu. Das widerspräche der Massenerhaltung.
+              en: Atoms are not newly created in a reaction. That would contradict conservation of mass.
+          - text:
+              de: Die Wärme hat eine große Masse.
+              en: The heat has a large mass.
+            correct: false
+            info:
+              de: Wärme macht die Masse nicht messbar größer. Die Zunahme kommt vom Sauerstoff.
+              en: Heat does not measurably raise the mass. The increase comes from the oxygen.
+        explanation:
+          de: Die Gesamtmasse bleibt gleich, wenn du den Sauerstoff aus der Luft mitzählst. Auf der Waage lag nur das Eisen.
+          en: The total mass stays the same when you count the oxygen from the air. Only the iron was on the balance.
+        links: *a1
+      - type: number
+        id: masse-magnesium
+        text:
+          de: 3 g Magnesium verbrennen mit 2 g Sauerstoff vollständig zu Magnesiumoxid. Wie viel Gramm Magnesiumoxid entstehen?
+          en: 3 g of magnesium burn completely with 2 g of oxygen to magnesium oxide. How many grams of magnesium oxide are formed?
+        answer: 5
+        tolerance: 0
+        unit:
+          de: g
+          en: g
+        mistakes:
+          - answer: 3
+            message:
+              de: Das ist nur die Masse des Magnesiums. Der Sauerstoff steckt im Magnesiumoxid mit drin.
+              en: That is only the mass of the magnesium. The oxygen is part of the magnesium oxide.
+        explanation:
+          de: Die Gesamtmasse bleibt gleich. Vorher 3 g + 2 g = 5 g, also entstehen 5 g Magnesiumoxid.
+          en: The total mass stays the same. Before, 3 g + 2 g = 5 g, so 5 g of magnesium oxide are formed.
+        links: *a1
+      - type: true-false
+        id: atome-entstehen
+        text:
+          de: Bei einer chemischen Reaktion entstehen neue Atome.
+          en: In a chemical reaction new atoms are created.
+        answer: false
+        explanation:
+          de: Die Atome bleiben erhalten. Sie sind nach der Reaktion nur anders angeordnet. Darum entstehen neue Stoffe, aber keine neuen Atome.
+          en: The atoms are kept. After the reaction they are just arranged differently. That is why new substances are formed, but no new atoms.
+        links: *a1
