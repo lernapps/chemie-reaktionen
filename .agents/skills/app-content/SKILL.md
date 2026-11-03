@@ -24,14 +24,14 @@ Plan: `.vibe/plans/01-split-from-anorganische-chemie.md`.
 
 Je Seite die Bausteine der Karte (Strang `chemische-reaktion`), Datei `src/<kapitel>/<seite>.yaml`.
 
-- Kapitel `reaktionen` (Chemische Reaktionen):
-  - `reaktionen`: `kennzeichen-chemischer-reaktionen` (Ich kann an Beobachtungen erkennen, dass eine chemische Reaktion
-    abgelaufen ist), `reaktion-oder-zustandsaenderung` (Ich kann eine chemische Reaktion von einer Zustandsänderung
-    unterscheiden). Übungen: `vorgang-art`, `atome-entstehen`, `sicheres-zeichen`.
-  - `reaktionsgleichungen`: `reaktionsgleichung-aufstellen` (Ich kann eine einfache Reaktionsgleichung aufstellen, bei
-    der auf beiden Seiten gleich viele Atome stehen), `massenerhaltung` (nur auf Atomebene: gleich viele Atome je Sorte
-    links und rechts; der Versuch mit der Waage fehlt). Übungen: `koeffizient-wasser`, `koeffizient-magnesium`,
+- Kapitel `reaktionen` (Chemische Reaktionen), vier Seiten, je ein Baustein, in der Reihenfolge der `requires`:
+  - `reaktionen`: `kennzeichen-chemischer-reaktionen`. Übungen: `beobachtung-hinweis`, `gas-beweis`, `sicheres-zeichen`.
+  - `zustandsaenderung`: `reaktion-oder-zustandsaenderung`. Übungen: `vorgang-art`, `kerzenwachs`, `zucker-braun`.
+  - `massenerhaltung`: `massenerhaltung` (Versuch mit der Waage, offen und geschlossen, dazu die Atome). Übungen:
+    `waage-geschlossen`, `stahlwolle-offen`, `masse-magnesium`, `atome-entstehen`.
+  - `reaktionsgleichungen`: `reaktionsgleichung-aufstellen`. Übungen: `koeffizient-wasser`, `koeffizient-magnesium`,
     `koeffizient-ammoniak`, `koeffizient-methan`, `gleichung-schritte`.
+  - Neue Seite: 1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt.
 - Kapitel `vorwissen` (Wiederholungsseiten, `recap`): Voraussetzungen dieser Bausteine aus dem Strang
   `stoffe-und-teilchen`, die die App nicht übt.
   - `stoffeigenschaften` (`chemie/stoffeigenschaften-beschreiben`), `aggregatzustaende`
